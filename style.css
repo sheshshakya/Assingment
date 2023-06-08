@@ -1,0 +1,52 @@
+
+.main-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .container {
+    width: 200px;
+    height: 300px;
+    border: 1px solid #edc1c1;
+    float: left;
+    margin-right: 20px;
+    padding: 10px;
+    background: #91f7f7;
+  }
+  
+  .item {
+    width: 100px;
+    height: 100px;
+    background-color: #b1c3fe;
+    margin: 10px;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  #success-message {
+    display: none;
+    margin-top: 10px;
+    color: rgb(97, 255, 97);
+  }
+  .click-btn{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #e08e7f;
+  }

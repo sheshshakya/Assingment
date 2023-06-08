@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="main-container">
+  <div class="container" id="container1" ondrop="drop(event)" ondragover="allowDrop(event)">
+    <img class="item" id="item1" src="img1.png" draggable="true" ondragstart="drag(event)">
+    <img class="item" id="item2" src="img2.png" draggable="true" ondragstart="drag(event)">
+  </div>
+  
+  <div class="container" id="container2" ondrop="drop(event)" ondragover="allowDrop(event)">
+    <div id="success-message">Item successfully dropped!</div>
+  </div>
+</div>
+<div class="click-btn">
+  <button onclick="resetContainers()">Reset</button>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
